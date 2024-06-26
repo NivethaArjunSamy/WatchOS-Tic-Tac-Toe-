@@ -113,14 +113,14 @@ struct ContentView: View {
     }
     
     func resetGame() {
-//        matrix = [
-//            [0, 0, 0],
-//            [0, 0, 0],
-//            [0, 0, 0]
-//        ]
-//        isTurnofX = true
-//        gameOverMessage = ""
-        exit(0)
+        matrix = [
+            [0, 0, 0],
+            [0, 0, 0],
+            [0, 0, 0]
+        ]
+        isTurnofX = true
+        gameOverMessage = ""
+       
     }
 }
 
